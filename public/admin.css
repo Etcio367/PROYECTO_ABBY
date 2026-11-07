@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-admin {
+    color: #243b64;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.panel-admin {
+    background-color: white;
+    border: 2px solid #243b64;
+    border-radius: 12px;
+    padding: 35px;
+    min-height: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bienvenida {
+    color: #243b64;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.seccion-alertas {
+    border: 2px solid #d5dce8;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    background-color: #fafbfe;
+}
+
+.seccion-alertas h3 {
+    color: #243b64;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.descripcion {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.lista-alertas {
+    padding-left: 18px;
+}
+
+.lista-alertas li {
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.producto {
+    font-weight: 500;
+}
+
+.cantidad {
+    display: block;
+    color: #dc3545;
+    font-size: 13px;
+}
+
+.ver-lista {
+    display: inline-block;
+    margin-top: 8px;
+    color: #345caa;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ver-lista:hover {
+    text-decoration: underline;
+}
+
+.opciones-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    height: 100%;
+}
+
+.btn-opcion {
+    display: block;
+    width: 85%;
+    max-width: 260px;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #345caa;
+    border: 2px solid #345caa;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-opcion:hover {
+    background-color: #243b64;
+    border-color: #243b64;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Adaptar a celular */
+@media (max-width: 767px) {
+
+    .container {
+        padding-top: 25px !important;
+    }
+
+    .titulo-admin {
+        font-size: 26px;
+    }
+
+    .panel-admin {
+        padding: 20px;
+    }
+
+    .bienvenida {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .seccion-alertas {
+        padding: 15px;
+    }
+
+    .opciones-admin {
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .btn-opcion {
+        width: 100%;
+    }
+}
